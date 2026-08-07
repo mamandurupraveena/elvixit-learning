@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityCare Hospital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-hospital"></i>
+            <h2>CityCare Hospital</h2>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="#appointment">Appointment</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+    <div class="hero-text">
+        <h1>Your Health Is Our Priority</h1>
+        <p>24/7 Emergency Care with Experienced Doctors.</p>
+
+        <a href="#appointment" class="btn">Book Appointment</a>
+        <a href="#contact" class="btn emergency">Emergency</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800" alt="Hospital">
+    </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="services">
+
+<h2>Our Services</h2>
+
+<div class="service-container">
+
+<div class="card">
+<i class="fa-solid fa-truck-medical"></i>
+<h3>Emergency</h3>
+<p>24/7 Emergency Care.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-heart-pulse"></i>
+<h3>Cardiology</h3>
+<p>Heart Specialists.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-stethoscope"></i>
+<h3>General Medicine</h3>
+<p>Complete Health Checkups.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-child"></i>
+<h3>Pediatrics</h3>
+<p>Child Care Specialists.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-flask"></i>
+<h3>Laboratory</h3>
+<p>Modern Diagnostic Labs.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-pills"></i>
+<h3>Pharmacy</h3>
+<p>24 Hour Pharmacy.</p>
+</div>
+
+</div>
+</section>
+
+<!-- Doctors -->
+<section id="doctors" class="doctors">
+
+<h2>Our Doctors</h2>
+
+<div class="doctor-container">
+
+<div class="doctor-card">
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<h3>Dr. John Smith</h3>
+<p>Cardiologist</p>
+<p>10+ Years Experience</p>
+<button>Book Now</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<h3>Dr. Sarah Lee</h3>
+<p>Pediatrician</p>
+<p>8+ Years Experience</p>
+<button>Book Now</button>
+</div>
+
+<div class="doctor-card">
+<img src="https://randomuser.me/api/portraits/men/65.jpg">
+<h3>Dr. David</h3>
+<p>General Physician</p>
+<p>12+ Years Experience</p>
+<button>Book Now</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- Appointment -->
+<section id="appointment" class="appointment">
+
+<h2>Book Appointment</h2>
+
+<form id="appointmentForm">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<select required>
+<option>Select Department</option>
+<option>Cardiology</option>
+<option>General Medicine</option>
+<option>Pediatrics</option>
+<option>Laboratory</option>
+</select>
+
+<input type="date" required>
+
+<input type="time" required>
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">Book Appointment</button>
+
+</form>
+
+</section>
+
+<!-- Emergency -->
+<section class="emergency">
+
+<h2>Emergency Contact</h2>
+
+<h3><i class="fa-solid fa-phone"></i> +91 98765 43210</h3>
+
+<p>24 Hours Ambulance Service Available</p>
+
+<p>CityCare Hospital, Main Road, Hyderabad</p>
+
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+
+<h2>Patient Reviews</h2>
+
+<div class="testimonial-box">
+
+<div class="review">
+<p>"Excellent Doctors and Caring Staff."</p>
+<h4>- Rahul</h4>
+</div>
+
+<div class="review">
+<p>"Very Clean Hospital and Quick Service."</p>
+<h4>- Priya</h4>
+</div>
+
+<div class="review">
+<p>"Best Hospital Experience."</p>
+<h4>- Arjun</h4>
+</div>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+<footer id="contact">
+
+<h2>CityCare Hospital</h2>
+
+<p>Email: info@citycare.com</p>
+
+<p>Phone: +91 98765 43210</p>
+
+<div class="social">
+
+<i class="fab fa-facebook"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-linkedin"></i>
+
+</div>
+
+<p>© 2026 CityCare Hospital. All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
