@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Appointment Form
 const form = document.getElementById("appointmentForm");
 
@@ -65,3 +66,14 @@ topBtn.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+=======
+function explore() {
+    document.getElementById("destinations").scrollIntoView({
+        behavior: "smooth"
+    });
+}
+
+function contactMessage() {
+    alert("Thank you for contacting Travel Explorer!");
+}
+>>>>>>> ffa5d6a (add travel docker website)
