@@ -1,0 +1,372 @@
+<<<<<<< HEAD
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f9fc;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+header{
+    background:#0077b6;
+    color:#fff;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo i{
+    font-size:28px;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin-left:20px;
+}
+
+.nav-links a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.nav-links a:hover{
+    color:#ffd166;
+}
+
+/* Hero */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 8%;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h1{
+    font-size:48px;
+    color:#0077b6;
+}
+
+.hero-text p{
+    margin:20px 0;
+}
+
+.hero-image{
+    flex:1;
+    text-align:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:500px;
+    border-radius:15px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#0077b6;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    margin:10px 10px 0 0;
+}
+
+.btn:hover{
+    background:#005f8a;
+}
+
+.emergency{
+    background:#e63946;
+}
+
+/* Sections */
+section{
+    padding:60px 8%;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#0077b6;
+}
+
+/* Services */
+.service-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    padding:25px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card i{
+    font-size:40px;
+    color:#0077b6;
+    margin-bottom:15px;
+}
+
+/* Doctors */
+.doctor-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.doctor-card{
+    background:#fff;
+    text-align:center;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.doctor-card img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+.doctor-card button{
+    margin-top:15px;
+    padding:10px 20px;
+    background:#0077b6;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.doctor-card button:hover{
+    background:#005f8a;
+}
+
+/* Appointment */
+form{
+    max-width:700px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+form input,
+form select,
+form textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+form button{
+    padding:12px;
+    background:#0077b6;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+form button:hover{
+    background:#005f8a;
+}
+
+/* Emergency */
+.emergency{
+    text-align:center;
+    color:#fff;
+    padding:50px;
+}
+
+/* Testimonials */
+.testimonial-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.review{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+/* Footer */
+footer{
+    background:#023047;
+    color:#fff;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.social i{
+    margin:10px;
+    font-size:24px;
+    cursor:pointer;
+}
+
+.social i:hover{
+    color:#ffd166;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+.navbar{
+    flex-direction:column;
+}
+
+.nav-links{
+    flex-direction:column;
+    text-align:center;
+}
+
+.nav-links li{
+    margin:10px 0;
+}
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:34px;
+}
+
+}
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")
+    center/cover;
+
+    color: white;
+}
+
+#home h2 {
+    font-size: 50px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+#destinations {
+    background: #f4f4f4;
+}
+
+#destinations div {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+>>>>>>> ffa5d6a (add travel docker website)
