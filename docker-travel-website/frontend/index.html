@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TravelGo - Explore the World</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+
+        <div class="logo">
+            Travel<span>Go</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="login-btn">
+            Login
+        </button>
+
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="subtitle">
+                DISCOVER THE WORLD
+            </p>
+
+            <h1>
+                Explore Beautiful
+                <span>Places</span>
+            </h1>
+
+            <p class="hero-text">
+                Find your next adventure and discover amazing
+                destinations around the world.
+            </p>
+
+
+            <!-- Search -->
+            <div class="search-box">
+
+                <div class="search-field">
+
+                    <label>
+                        Destination
+                    </label>
+
+                    <input
+                        type="text"
+                        id="destinationInput"
+                        placeholder="Where do you want to go?"
+                    >
+
+                </div>
+
+
+                <div class="search-field">
+
+                    <label>
+                        Travel Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="dateInput"
+                    >
+
+                </div>
+
+
+                <button id="searchBtn">
+                    Search
+                </button>
+
+            </div>
+
+
+            <p
+                id="searchResult"
+                class="search-result"
+            ></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Destinations -->
+    <section
+        class="destinations"
+        id="destinations"
+    >
+
+        <div class="section-heading">
+
+            <p>
+                TOP DESTINATIONS
+            </p>
+
+            <h2>
+                Popular Places
+            </h2>
+
+            <span>
+                Explore some of the world's most beautiful
+                destinations.
+            </span>
+
+        </div>
+
+
+        <!-- JavaScript loads cards here -->
+        <div
+            class="destination-grid"
+            id="destinationGrid"
+        >
+
+            <p>
+                Loading destinations...
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Services -->
+    <section
+        class="services"
+        id="services"
+    >
+
+        <div class="section-heading">
+
+            <p>
+                OUR SERVICES
+            </p>
+
+            <h2>
+                Everything You Need
+            </h2>
+
+        </div>
+
+
+        <div class="service-grid">
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    ✈️
+                </div>
+
+                <h3>
+                    Flight Booking
+                </h3>
+
+                <p>
+                    Find and book flights for your
+                    next adventure.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🏨
+                </div>
+
+                <h3>
+                    Hotels
+                </h3>
+
+                <p>
+                    Discover comfortable hotels
+                    at great prices.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🗺️
+                </div>
+
+                <h3>
+                    Trip Planning
+                </h3>
+
+                <p>
+                    Create the perfect travel plan
+                    for your journey.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🎒
+                </div>
+
+                <h3>
+                    Travel Guide
+                </h3>
+
+                <p>
+                    Get useful information about
+                    your destination.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+
+        <div class="footer-content">
+
+
+            <div>
+
+                <div class="logo">
+                    Travel<span>Go</span>
+                </div>
+
+                <p>
+                    Making your travel dreams come true.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#destinations">
+                    Destinations
+                </a>
+
+                <a href="#services">
+                    Services
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Contact
+                </h3>
+
+                <p>
+                    📧 support@travelgo.com
+                </p>
+
+                <p>
+                    📞 +91 98765 43210
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 TravelGo.
+            All rights reserved.
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
